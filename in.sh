@@ -67,7 +67,7 @@ if [[ "$choice" -eq 1 ]]; then
     git clone -b nogost $A3 "$TEMP_REPO_PATH"
     if [[ -d "$TEMP_REPO_PATH/single" ]]; then
         echo "移动配置文件到目标目录..."
-        mv "$TEMP_REPO_PATH/single/"* "$A2/"
+        mv "$TEMP_REPO_PATH"/single/* "$A2/"
     else
         echo "配置文件下载失败或路径不存在"
         exit 1
