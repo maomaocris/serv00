@@ -77,7 +77,6 @@ if [[ "$choice" -eq 1 ]]; then
     wget -O- https://github.com/go-gost/gost/releases/download/v3.0.0/gost_3.0.0_freebsd_amd64.tar.gz | tar xzv gost
     wget -O- https://github.com/maomaocris/serv00/releases/download/2.1.0/cftun_freebsd_amd64.tar.gz | tar xzv cftun
 
-fi
 elif [[ "$choice" -eq 2 ]]; then
     # 确认 start.sh 文件是否存在
     cd $A2
@@ -96,6 +95,7 @@ elif [[ "$choice" -eq 2 ]]; then
     sed -i '/fi/ s/^/#/' start.sh
 
     echo "start.sh 中与 gost 相关的部分已被屏蔽！"
+fi
 
 if [[ "$choice" -eq 1 ]]; then
 
