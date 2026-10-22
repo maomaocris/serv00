@@ -109,7 +109,7 @@ rules:
   - RULE-SET,github_domain,👨🏿‍💻 GitHub
   - RULE-SET,onedrive_domain,🐬 OneDrive
   - RULE-SET,microsoftcn_domain,DIRECT
-  - RULE-SET,microsoft_domain,🪟 Microsoft
+  - RULE-SET,microsoft_domain,💻 Microsoft
   - RULE-SET,applecn_domain,DIRECT
   - RULE-SET,apple_domain,🍎 Apple
   - RULE-SET,telegram_domain,📲 Telegram
