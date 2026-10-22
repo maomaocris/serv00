@@ -82,10 +82,10 @@ proxy-groups:
   - {name: 🎮 Steam, type: select, proxies: [🔯 香港故转, 🔯 日本故转, 🔯 狮城故转, 🔯 美国故转, ♻️ 香港自动, ♻️ 日本自动, ♻️ 狮城自动, ♻️ 美国自动, ♻️ 自动选择, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇸🇬 狮城节点, 🇺🇲 美国节点, 🌐 全部节点, DIRECT]}
   - {name: 🍎 Apple, type: select, proxies: [🔯 香港故转, 🔯 日本故转, 🔯 狮城故转, 🔯 美国故转, ♻️ 香港自动, ♻️ 日本自动, ♻️ 狮城自动, ♻️ 美国自动, ♻️ 自动选择, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇸🇬 狮城节点, 🇺🇲 美国节点, 🌐 全部节点, DIRECT]}
   - {name: 🐟 漏网之鱼, type: select, proxies: [🚀 默认代理, 🔯 香港故转, 🔯 日本故转, 🔯 狮城故转, 🔯 美国故转, ♻️ 香港自动, ♻️ 日本自动, ♻️ 狮城自动, ♻️ 美国自动, ♻️ 自动选择, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇸🇬 狮城节点, 🇺🇲 美国节点, 🌐 全部节点, DIRECT]}
-  - {name: 🇭🇰 香港节点, type: select, include-all: true, filter: "(?=.*(港|HK｜首尔|(?i)Hong))^((?!(台|日|韩|新|深|美)).)*$"}
-  - {name: 🇯🇵 日本节点, type: select, include-all: true, filter: "(?=.*(日|JP｜东京|(?i)Japan))^((?!(港|台|韩|新|美)).)*$"}
+  - {name: 🇭🇰 香港节点, type: select, include-all: true, filter: "(?=.*(港|HK|首尔|(?i)Hong))^((?!(台|日|韩|新|深|美)).)*$"}
+  - {name: 🇯🇵 日本节点, type: select, include-all: true, filter: "(?=.*(日|JP|东京|(?i)Japan))^((?!(港|台|韩|新|美)).)*$"}
   - {name: 🇸🇬 狮城节点, type: select, include-all: true, filter: "(?=.*(新加坡|坡|狮城|SG|Singapore))^((?!(台|日|韩|深|美)).)*$"}
-  - {name: 🇺🇲 美国节点, type: select, include-all: true, filter: "(?=.*(美|US｜Columbus|波｜伦敦｜法兰|(?i)States|America))^((?!(港|台|韩|新|日)).)*$"}
+  - {name: 🇺🇲 美国节点, type: select, include-all: true, filter: "(?=.*(美|US|Columbus|波|伦敦|法兰|(?i)States|America))^((?!(港|台|韩|新|日)).)*$"}
   - {name: 🔯 香港故转, type: fallback, include-all: true, interval: 300, filter: "(?=.*(港|HK|(?i)Hong))^((?!(台|日|韩|新|深|美)).)*$"}
   - {name: 🔯 日本故转, type: fallback, include-all: true, interval: 300, filter: "(?=.*(日|JP|(?i)Japan))^((?!(港|台|韩|新|美)).)*$"}
   - {name: 🔯 狮城故转, type: fallback, include-all: true, interval: 300, filter: "(?=.*(新加坡|坡|狮城|SG|Singapore))^((?!(台|日|韩|深|美)).)*$"}
